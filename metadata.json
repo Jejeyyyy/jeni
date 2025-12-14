@@ -1,0 +1,5 @@
+{
+  "name": "Ruang Tunggu Pintar (Smart Queue)",
+  "description": "Aplikasi antrian pintar untuk layanan publik (KTP, KK, Paspor, SIM) dengan integrasi Google Sign-In dan Asisten AI Gemini.",
+  "requestFramePermissions": []
+}
