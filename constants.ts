@@ -1,5 +1,7 @@
-// MAHASISWA: Ganti string di bawah ini dengan Client ID dari Google Cloud Console Anda
-export const GOOGLE_CLIENT_ID = "230938970310-met3m40dijvfvue0nb259bmipvq8argr.apps.googleusercontent.com";
+// MAHASISWA: Atur Vite env `VITE_GOOGLE_CLIENT_ID` pada environment/CI.
+// Fallback di bawah hanya untuk kemudahan lokal; sebaiknya gunakan env vars.
+const _env = import.meta.env as { VITE_GOOGLE_CLIENT_ID?: string };
+export const GOOGLE_CLIENT_ID = _env.VITE_GOOGLE_CLIENT_ID || "230938970310-5qnbsr2jb0lf9puc673k6edemgm0f3qf.apps.googleusercontent.com";
 
 // Helper to map service types to display names and colors
 export const SERVICE_INFO = {
